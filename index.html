@@ -1,0 +1,47 @@
+<!doctype=html>
+<html lang="eng">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans"/>
+  <title>Object Literal</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans"/>
+</head>
+<body>
+  <section>
+    <div id="darkScreen" class="invis"></div>
+  </section>
+
+  <aside>
+    <form action="" id="submitForm">
+      <h4>
+        <label for="name"></label>
+        <input type="text" name="name" placeholder="Product Name">
+      </h4>
+      <p>
+        <label for="description"></label>
+        <textarea name="description" cols="30" rows="10" placeholder="Product Description"></textarea>
+      </p>
+      <p>
+        <label for="price"></label>
+        <input type="text" name="price" placeholder="Product Price">
+      </p>
+      <p>
+        <label for="image"></label>
+        <input type="text" name="image" placeholder="Product Image">
+      </p>
+      <p>
+        <button type="submit" id="submitButton">Submit Product</button>
+        <button type="submit" id="altSubmitButton" class="invis">Update Product</button>
+      </p>
+    </form>
+  </aside>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="data.js"></script>
+  <script src="templates.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
